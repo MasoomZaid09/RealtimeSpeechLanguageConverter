@@ -3,7 +3,6 @@ package com.masoom.speechlanguageconverter.presentation.viewmodels
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.masoom.speechlanguageconverter.data.socket.STTWebSocketManager
-import com.masoom.speechlanguageconverter.domain.model.TranslateResponse
 import com.masoom.speechlanguageconverter.domain.repo.RepoInterface
 import com.masoom.speechlanguageconverter.domain.state_manangment.ApiState
 import kotlinx.coroutines.flow.MutableStateFlow

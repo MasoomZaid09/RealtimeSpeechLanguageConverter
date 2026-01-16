@@ -3,8 +3,8 @@ package com.masoom.speechlanguageconverter.data.repo
 import android.util.Log
 import com.masoom.speechlanguageconverter.data.api.RetrofitClient.api
 import com.masoom.speechlanguageconverter.domain.helper.extractTranslatedText
-import com.masoom.speechlanguageconverter.domain.model.TTSRequest
-import com.masoom.speechlanguageconverter.domain.model.TranslateRequest
+import com.masoom.speechlanguageconverter.data.model.TTSRequest
+import com.masoom.speechlanguageconverter.data.model.TranslateRequest
 import com.masoom.speechlanguageconverter.domain.repo.RepoInterface
 import com.masoom.speechlanguageconverter.domain.state_manangment.ApiState
 import retrofit2.HttpException

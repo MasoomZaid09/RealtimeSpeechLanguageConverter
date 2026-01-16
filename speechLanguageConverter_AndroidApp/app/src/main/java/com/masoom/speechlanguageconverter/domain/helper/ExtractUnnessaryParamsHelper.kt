@@ -1,6 +1,6 @@
 package com.masoom.speechlanguageconverter.domain.helper
 
-import com.masoom.speechlanguageconverter.domain.model.TranslateResponse
+import com.masoom.speechlanguageconverter.data.model.TranslateResponse
 
 fun extractTranslatedText(
     response: TranslateResponse

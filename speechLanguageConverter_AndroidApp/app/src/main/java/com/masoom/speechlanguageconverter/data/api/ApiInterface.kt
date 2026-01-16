@@ -1,8 +1,8 @@
 package com.masoom.speechlanguageconverter.data.api
 
-import com.masoom.speechlanguageconverter.domain.model.TTSRequest
-import com.masoom.speechlanguageconverter.domain.model.TranslateRequest
-import com.masoom.speechlanguageconverter.domain.model.TranslateResponse
+import com.masoom.speechlanguageconverter.data.model.TTSRequest
+import com.masoom.speechlanguageconverter.data.model.TranslateRequest
+import com.masoom.speechlanguageconverter.data.model.TranslateResponse
 import okhttp3.ResponseBody
 import retrofit2.Response
 import retrofit2.http.Body

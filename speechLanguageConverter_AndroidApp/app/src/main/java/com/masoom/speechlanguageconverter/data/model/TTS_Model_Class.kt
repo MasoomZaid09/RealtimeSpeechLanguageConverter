@@ -1,4 +1,4 @@
-package com.masoom.speechlanguageconverter.domain.model
+package com.masoom.speechlanguageconverter.data.model
 
 data class TTSRequest(
     val text: String,
