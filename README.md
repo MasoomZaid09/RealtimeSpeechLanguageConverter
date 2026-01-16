@@ -32,9 +32,9 @@ Many users with technical knowledge struggle to explain ideas clearly in English
 
 ## Folder Structure
 
-RealtimeSpeechLanguageConverter
-├── speechLanguageConverter_AndroidApp
-│   ├── app
+RealtimeSpeechLanguageConverter 
+    ├── speechLanguageConverter_AndroidApp
+    │   ├── app
 │   │   ├── src
 │   │   │   └── main
 │   │   │       ├── java/com/yourpackage
