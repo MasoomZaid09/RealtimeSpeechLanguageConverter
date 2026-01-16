@@ -32,34 +32,31 @@ Many users with technical knowledge struggle to explain ideas clearly in English
 
 ## Folder Structure
 
-RealtimeSpeechLanguageConverter/
-│
-├── speechLanguageConverter_AndroidApp/
-│   ├── app/
-│   │   ├── src/
-│   │   │   └── main/
-│   │   │       ├── java/com/yourpackage/
-│   │   │       │   ├── ui/          # Screens / UI components
-│   │   │       │   ├── viewmodel/   # State & business logic
-│   │   │       │   ├── data/        # Repositories & data sources
-│   │   │       │   ├── audio/       # Audio capture & playback
-│   │   │       │   └── network/     # API / WebSocket communication
-│   │   │       ├── res/             # Layouts, strings, themes
+RealtimeSpeechLanguageConverter
+├── speechLanguageConverter_AndroidApp
+│   ├── app
+│   │   ├── src
+│   │   │   └── main
+│   │   │       ├── java/com/yourpackage
+│   │   │       │   ├── ui
+│   │   │       │   ├── viewmodel
+│   │   │       │   ├── data
+│   │   │       │   ├── audio
+│   │   │       │   └── network
+│   │   │       ├── res
 │   │   │       └── AndroidManifest.xml
 │   │   └── build.gradle
-│   └── gradle/
-│
-├── speechLanguageConverter_Backend/
-│   ├── src/
-│   │   ├── routes/          # API routing
-│   │   ├── controllers/     # Request handling
-│   │   ├── services/        # Translation / speech logic
-│   │   └── utils/           # Shared utilities
-│   ├── package.json
-│   └── server.js
-│
-└── README.md
+│   └── gradle
+└── speechLanguageConverter_Backend
+    ├── src
+    │   ├── routes
+    │   ├── controllers
+    │   ├── services
+    │   └── utils
+    ├── package.json
+    └── server.js
 
+ReadMe.md
 ---
 
 ## Setup & Run
